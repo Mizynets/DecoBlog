@@ -1,0 +1,167 @@
+
+@media screen and (max-width: 992px){
+	.slider_label{
+		top: 89%;
+		left: 50%;
+		z-index: 10;
+		transform: translate(-50%, -150%);
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		width: 10%;
+
+	}
+	.slider_label label:first-child{
+	margin-top: 7px;
+	}
+
+	.controls{
+		top: 90%;
+		right: 50%;
+		transform: translateX(50%) rotate(180deg);
+	}
+
+	.subscribe_panel{
+		padding: 15px 0; 
+	}
+	.content_form_flex{
+		flex-direction: column;
+	}
+	.el_fl_form{
+		width: 80%;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	.input_subs{
+		padding: 12px 15px;
+		font-size: 0.8rem;
+	}
+	.button_subs{
+		padding: 14px;
+	}
+
+	.main_section_flex{
+		flex-direction: column;
+	}
+	.fl_el_main_section{
+		width: 100%;
+	}
+	.fl_el_side{
+		margin-top: 20px;
+	}
+	.categories_Rside{
+		padding: 0;
+	}
+	.categories_Rside_img{
+	display: none;
+	}
+
+	.latest_Rside{
+		padding-top: 5px;
+	}
+	.li_latest_list:hover{
+	transform: scale(1);
+	cursor: pointer;
+	}
+
+	.ul_latest_list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.li_latest_list{
+		width: 49%;
+		flex-direction: column;
+	}
+	.img_latest_list{
+		width: 70%;
+		height: auto;
+	}
+
+	.span_latest_list{
+		width: 100%;
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	.controls_2{
+		flex-direction: column;
+		padding: 15px 0;
+		align-items: center;
+	}
+	.controls_2 label{
+		width: 80%;
+		margin-top: 5px;
+		padding: 30px 5px;
+	}
+
+	.fotter_flex{
+		flex-direction: column;
+	}
+
+	.fotter_flex_box{
+		width: 100%;
+		text-align: center;
+	}
+	.p_fotter{
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+	.ul_insta_p_i{
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.li_insta_p_i{
+		width: 47%;
+		margin-top: 10px;
+
+	}
+
+}
+
+@media screen and (max-width: 675px){
+	.logo1{
+		font-size: 1.1rem;
+	}
+	.logo2{
+		font-size: 0.8rem;
+	}
+
+	.el_fl_form{
+		width: 90%;
+	}
+
+	.slider_label{
+		top: 75%;
+	}
+	.controls{
+		top: 75%;
+	}
+	.first_part_info{
+		flex-direction: column;
+	}
+	.img_people_info{
+		width: 50%;
+		height: auto;
+		border-radius: 5px;
+	}
+	.img_people_info:hover{
+	transform: scale(1);
+	border-radius: 0.1px;
+	}
+	.people_h{
+		font-size: 0.9rem;
+	}
+	.people_p{
+		font-size: 0.8rem;
+		font-weight: 400;
+		line-height: 1.3em;
+	}
+
+	.slider_text_content{
+		padding-top: 25px;
+	}
+}
